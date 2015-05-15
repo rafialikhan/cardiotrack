@@ -1,0 +1,23 @@
+/*
+Theme Name: bootstrap-canvas-wp-Child
+Theme URI: http://sitemile.com/products/wordpress-project-freelancer-theme/
+Description: child of bootstrap-canvas-wp
+Author: SiteMile
+Author URI: http://sitemile.com
+Template: bootstrap-canvas-wp
+*/
+
+@import url("../bootstrap-canvas-wp/style.css");
+
+.navbar-brand img{
+ width:180px;
+}
+.navbar-brand {
+ padding:0 !important;
+}
+
+@media (min-width: 768px){
+.navbar-header {
+  display: block !important;
+}
+}
